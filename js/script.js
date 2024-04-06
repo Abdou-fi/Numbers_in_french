@@ -137,17 +137,20 @@ function validate(evt) {
     }
 }
 
-function copytxt() {
-    // Get the text field
-    var copied = document.getElementById("result".innerHTML);
-  
-    // Select the text field
-    copied.select();
-  
-     // Copy the text inside the text field
-    navigator.clipboard.writeText(copied.value);
-  
-    // Alert the copied text
-    alert("Copied the text: " + copied.value);
-  }
 
+
+function copytxt(containerid) {
+    if (document.selection) {
+      var range = document.body.createTextRange();
+      range.moveToElementText(document.getElementById(containerid));
+      range.select().createTextRange();
+      navigator.clipboard.writeText(range);
+
+    } else if (window.getSelection) {
+      var range = document.createRange();
+      range.selectNode(document.getElementById(containerid));
+      window.getSelection().addRange(range);
+      navigator.clipboard.writeText(range);
+
+    }
+  }
