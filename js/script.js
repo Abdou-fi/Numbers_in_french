@@ -136,3 +136,18 @@ function validate(evt) {
         if(theEvent.preventDefault) theEvent.preventDefault();
     }
 }
+
+function copytxt() {
+    // Get the text field
+    var copied = document.getElementById("result".innerHTML);
+  
+    // Select the text field
+    copied.select();
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copied.value);
+  
+    // Alert the copied text
+    alert("Copied the text: " + copied.value);
+  }
+

@@ -15,27 +15,50 @@
 <body>
 <div id="header"></div>
 <div class="container"><br>
-    <label>Convert numbers into french words</label>
+    <br><br>   <label>Convert numbers into french words</label>
     <hr><br>
+
     <label>Number to be converted:</label><br>
-    <input type="text" id="input1" maxlength="12" onkeypress="validate(event);"><br><br>
+    <input type="text" id="number1" maxlength="12" onkeypress="validate(event);"><br><br>
+    
     <input type="button" id="convert" value="Convert it"
-        onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('input1').value)">
+        onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">
     <br><br>
+
         <label>Number converted into words:</label>
-    <div id="result"></div><br><br>
     
+        <div id="result"></div>
+        
+        
+
     
-    <div class="store">
+        <div id="buttons">
+             
+             <button id="copyTextBt" value="Copy the text"  onclick="copytxt()">Copy text</button>
+
+        </div>
+    
+        <br><br>
+
+
+
+    
+    <div class="def">
+    
         <a href="nombres.html" target="_blank">French numbers spelling rules<br> (in French)</a>
+    
     </div>
+    
     <br>
 
     <div id="footer">
         <img id="footer_img" src="images/me.png">
+        
         <p id="footer_p">Copyright © 2014, Abdou FILALI.<br>
             Published on: June 5th, 2014. <br>
-			<img id="mail" src="images/mail.png"></p>
+			<img id="mail" src="images/mail.png">
+        </p>
+
     </div>
 </div>
 </body>
