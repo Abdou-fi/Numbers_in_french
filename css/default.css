@@ -21,13 +21,13 @@ html, body{
     width: 96%;
     height: 94%;
 }
-body, #header, #convert, #result, #input1{
+body, #header, #convert, #result, #number1{
     background-color: #2b36ff;
 }
-#result, #input1, #convert{
+#result, #number1, #convert{
     color: white;
 }
-label, #convert, #input1, #result, hr, p, .store {
+label, #convert, #number1, #result, hr, p, .def {
     width : 50%;
 }
 label{
@@ -39,7 +39,7 @@ label{
     border: 0;
     border-radius: 10px;
 }
-#input1{
+#number1{
     height: 40px;
     text-align: center;
     font-size: xx-large;
@@ -53,7 +53,7 @@ label{
     border-radius: 10px;
     padding: 3px;
 }
-.store{
+.def{
     margin: auto;
 }
 p{
