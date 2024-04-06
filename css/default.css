@@ -1,0 +1,71 @@
+body{
+    margin: auto;
+    font-family: "arial", "times new roman", serif;
+    color:#2b36ff;
+}
+html, body{
+    height: 100%;
+}
+#header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+    height: 3%;
+}
+.container {
+    text-align: center;
+    background-color: #09D6FF;
+    border-radius: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+    height: 94%;
+}
+body, #header, #convert, #result, #input1{
+    background-color: #2b36ff;
+}
+#result, #input1, #convert{
+    color: white;
+}
+label, #convert, #input1, #result, hr, p, .store {
+    width : 50%;
+}
+label{
+    border-radius: 10px;
+}
+#convert{
+    height: 40px;
+    font-size: xx-large;
+    border: 0;
+    border-radius: 10px;
+}
+#input1{
+    height: 40px;
+    text-align: center;
+    font-size: xx-large;
+    border: 0;
+    border-radius: 10px;
+}
+#result{
+    font-size: x-large;
+    min-height: 60px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 3px;
+}
+.store{
+    margin: auto;
+}
+p{
+    margin: auto;
+    text-align: left;
+    font-size: medium;
+}
+#footer{
+    margin: auto;
+    width : 50%;
+}
+#footer_p {
+    font-size: small;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="écrire les nombres en toutes lettres">
+    <meta name="keywords" content="arretation en toutes lettres, conversion chiffre en lettres, nombres en toutes lettres,
+        digits to word, numbers into words, remplir chèque, french numbers, nombres en français,
+        write french numbers, تفقيط الأعداد فرنسي ,arretation">
+    <meta name="author" content="Dr. Abdou FILALI">
+    <title>Convert numbers into French words</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+<div id="header"></div>
+<div class="container"><br>
+    <label>Convert numbers into french words</label>
+    <hr><br>
+    <label>Number to be converted:</label><br>
+    <input type="text" id="input1" maxlength="12" onkeypress="validate(event);"><br><br>
+    <input type="button" id="convert" value="Convert it"
+        onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('input1').value)">
+    <br><br>
+        <label>Number converted into words:</label>
+    <div id="result"></div><br><br>
+    
+    
+    <div class="store">
+        <a href="nombres.html" target="_blank">French numbers spelling rules<br> (in French)</a>
+    </div>
+    <br>
+
+    <div id="footer">
+        <img id="footer_img" src="images/me.png">
+        <p id="footer_p">Copyright © 2014, Abdou FILALI.<br>
+            Published on: June 5th, 2014. <br>
+			<img id="mail" src="images/mail.png"></p>
+    </div>
+</div>
+</body>
+</html>
