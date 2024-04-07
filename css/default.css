@@ -21,24 +21,34 @@ html, body{
     width: 96%;
     height: 94%;
 }
-body, #header, #convert, #result, #number1{
+body, #header, #result, #number1{
     background-color: #2b36ff;
 }
-#result, #number1, #convert{
+
+#result, #number1, button{
     color: white;
 }
-label, #convert, #number1, #result, hr, p, .def {
+label, #number1, #result, hr, p, .def{
     width : 50%;
 }
 label{
     border-radius: 10px;
 }
-#convert{
+
+
+button{
+    background-color: #2b36ff;
     height: 40px;
-    font-size: xx-large;
+    font-size: x-large;
     border: 0;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
+
+button:hover{
+    background-color: #5055ee;
+}
+
+
 #number1{
     height: 40px;
     text-align: center;

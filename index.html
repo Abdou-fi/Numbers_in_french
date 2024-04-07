@@ -14,52 +14,50 @@
 </head>
 <body>
 <div id="header"></div>
-<div class="container"><br>
-    <br><br>   <label>Convert numbers into french words</label>
+<div class="container">
+    <br><label>Convert numbers into french words</label>
     <hr><br>
 
     <label>Number to be converted:</label><br>
-    <input type="text" id="number1" maxlength="12" onkeypress="validate(event);"><br><br>
+    
+    <input type="text" id="number1" maxlength="12" onkeypress="validate(event);">
+    <br>
+    <br>
+    
+        <div>             
+            <button type="button" id="convert" onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">Convert it  ></button>  
+     
+     
+        </div>
     
 
 
-    
-    
-        <div>
-             
-            <button id="convert" onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">Convert it</button>
-
-       </div>
-    
-
-
-        <br><br>
+        <br>
 
         <label>Number converted into words:</label>
     
         <div id="result"></div>
-        
-        
+        <br>
+        <div>             
+      
+            <button type="button" id="copyTextBt" value="Copy the text"  onclick="copytxt('result')">Copy</button>
 
-    
-        <div id="buttons">
-             
-             <button id="copyTextBt" value="Copy the text"  onclick="copytxt('result')">Copy</button>
-
+     
         </div>
     
-        <br><br>
-
-
+        
+        <br>
 
     
+       
+        
     <div class="def">
     
         <a href="nombres.html" target="_blank">French numbers spelling rules<br> (in French)</a>
     
     </div>
     
-    <br>
+  
 
     <div id="footer">
         <img id="footer_img" src="images/me.png">
