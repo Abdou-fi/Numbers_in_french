@@ -16,8 +16,8 @@
 
 <div id="header"></div>
 <div class="container">
-    <br>
-    <label>Convert numbers into french words</label>
+    
+    <label>Convert numbers into french words</label> <img id="appLogoIcon" src="images/pict1.png">
     <hr>
 
     <label>Number to be converted:</label><br>
@@ -28,9 +28,12 @@
     
         <div class="buttons">             
             
-            <button type="button" id="reset" onclick="clearBox('result');document.getElementById('number1').value='' ">Delete it > </button>  
-            <button type="button" id="convert" onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">Convert it ></button>  
+            <button type="button" id="reset" onclick="clearBox('result');document.getElementById('number1').value='' ">Reset > </button>  
+            
+            
+            <button type="button" id="convert"  onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">Convert it ></button>  
      
+           
 
      
         </div>
@@ -70,7 +73,8 @@
         
         <p id="footer_p">Copyright © 2014, Abdesselam FILALI.<br>
             Published on: June 5th, 2014. <br>
-			<a href="https://github.com/Abdou-fi"><img id="mail" src="images/github-logO.png"></a>
+			<a href="https://github.com/Abdou-fi"><img id="mail" src="images/github-logO.png"></a> 
+
 
 
         </p>
