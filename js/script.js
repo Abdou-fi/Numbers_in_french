@@ -154,3 +154,11 @@ function copytxt(containerid) {
 
     }
   }
+  
+function clearBox(elementID) { 
+    var div = document.getElementById(elementID); 
+     
+    while(div.firstChild) { 
+        div.removeChild(div.firstChild); 
+    } 
+}

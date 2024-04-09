@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="css/default.css">
 </head>
 <body>
+
 <div id="header"></div>
 <div class="container">
-    <br><label>Convert numbers into french words</label>
-    <hr><br>
+    <br>
+    <label>Convert numbers into french words</label>
+    <hr>
 
     <label>Number to be converted:</label><br>
     
@@ -25,8 +27,11 @@
     <br>
     
         <div class="buttons">             
-            <button type="button" id="convert" onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">Convert it  ></button>  
+            
+            <button type="button" id="reset" onclick="clearBox('result');document.getElementById('number1').value='' ">Delete it > </button>  
+            <button type="button" id="convert" onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">Convert it ></button>  
      
+
      
         </div>
     
@@ -54,7 +59,7 @@
         
     <div class="def">
     
-        <a href="nombres.html" target="_blank">French numbers spelling rules<br> (in French)</a>
+        <a href="nombres.html" target="_blank">French numbers spelling rules (in French)</a>
     
     </div>
     

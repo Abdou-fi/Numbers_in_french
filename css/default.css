@@ -31,7 +31,7 @@ body, #header, #result, #number1{
     color: white;
 }
 label, #number1, #result, hr, p, .def, .buttons{
-    width : 50%;
+    width : 70%;
 }
 label{
     border-radius: 10px;
