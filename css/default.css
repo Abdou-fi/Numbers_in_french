@@ -1,7 +1,7 @@
 body{
     margin: auto;
     font-family: "arial", "times new roman", serif;
-    color:#2b36ff;
+    color:#074173 ;
 }
 html, body{
     height: 100%;
@@ -14,7 +14,7 @@ html, body{
 }
 .container {
     text-align: center;
-    background-color: #09D6FF;
+    background-color: #1679AB;
     border-radius: 16px;
     margin-right: auto;
     margin-left: auto;
@@ -22,13 +22,13 @@ html, body{
     height: 94%;
 }
 body, #header, #result, #number1{
-    background-color: #2b36ff;
+    background-color: #074173;
 }
 .buttons{
 	    margin: auto;
 }
-#result, #number1, button{
-    color: white;
+#result, #number1{
+    color: #5DEBD7;
 }
 label, #number1, #result, hr, p, .def, .buttons{
     width : 70%;
@@ -39,16 +39,18 @@ label{
 
 
 button{
-    background-color: #2b36ff;
+    background-color: #074173;
     height: 40px;
     font-size: x-large;
     border: 0;
     border-radius: 10px; 
+    color: #1679AB;
 }
 
 button:hover{
-    background-color: #5055ee;
+    background-color: #5DEBD7;
     cursor: pointer;
+    color: #074173;
 }
 
 

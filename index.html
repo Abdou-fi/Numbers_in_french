@@ -17,21 +17,21 @@
 <div id="header"></div>
 <div class="container">
     
-    <label>Convert numbers into french words</label> <img id="appLogoIcon" src="images/pict1.png">
+    <label>Convert numbers into french words</label> 
     <hr>
 
     <label>Number to be converted:</label><br>
     
-    <input type="text" id="number1" maxlength="12" onkeypress="validate(event);">
+    <input type="text" id="number1" value="19761208" maxlength="12" onkeypress="validate(event);">
     <br>
     <br>
     
         <div class="buttons">             
             
-            <button type="button" id="reset" onclick="clearBox('result');document.getElementById('number1').value='' ">Reset > </button>  
+            <button type="button" id="reset" onclick="clearBox('result');document.getElementById('number1').value='' ">Reset</button>  
             
             
-            <button type="button" id="convert"  onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">Convert it ></button>  
+            <button type="button" id="convert"  onclick="document.getElementById('result').innerHTML = chiffre2lettre(document.getElementById('number1').value)">Convert ></button>  
      
            
 
@@ -44,11 +44,11 @@
 
         <label>Number converted into words:</label>
     
-        <div id="result"></div>
+        <div id="result">   </div>
         <br>
   <div class="buttons">             
       
-    <button type="button" id="copyTextBt" value="Copy the text"  onclick="copytxt('result')">Copy<br>
+    <button type="button" id="copyTextBt" value="Copy the text"  onclick="copytxt('result')">Copy <img src="images/copy1.png"> <br>
       </button>
 
      
@@ -73,10 +73,8 @@
         
         <p id="footer_p">Copyright © 2014, Abdesselam FILALI.<br>
             Published on: June 5th, 2014. <br>
-			<a href="https://github.com/Abdou-fi"><img id="mail" src="images/github-logO.png"></a> 
-
-
-
+            abdou_1@live.com<br>
+			<a href="https://github.com/Abdou-fi"><img id="mail" src="images/github-logO.png"></a> <img id="appLogoIcon" src="images/pict1.png">
         </p>
 
     </div>
