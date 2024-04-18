@@ -28,7 +28,7 @@ body, #header, #result, #number1{
 	    margin: auto;
 }
 #result, #number1{
-    color: #5DEBD7;
+    color: #a1ad69;
 }
 label, #number1, #result, hr, p, .def, .buttons{
     width : 70%;
@@ -48,7 +48,7 @@ button{
 }
 
 button:hover{
-    background-color: #5DEBD7;
+    background-color: #a1ad69;
     cursor: pointer;
     color: #074173;
 }
