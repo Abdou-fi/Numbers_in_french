@@ -33,6 +33,7 @@ body, #header, #result, #number1{
 label, #number1, #result, hr, p, .def, .buttons{
     width : 70%;
 }
+
 label{
     border-radius: 10px;
 }
@@ -83,4 +84,5 @@ p{
 #footer_p {
     font-size: small;
     text-align: center;
+    width : 90%;
 }
