@@ -30,7 +30,7 @@ body, #header, #result, #number1{
 #result, #number1{
     color: #a1ad69;
 }
-label, #number1, #result, hr, .def, .buttons, #footer{
+label, #number1, #result, .def, .buttons, #footer{
     width : 70%;
 }
 

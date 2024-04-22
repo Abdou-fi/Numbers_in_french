@@ -18,7 +18,7 @@
         digits to word, numbers into words, remplir chèque, french numbers, nombres en français,
         write french numbers, تفقيط الأعداد فرنسي ,arretation">
     <meta name="author" content="Dr. Abdou FILALI">
-    <title>Convert numbers into French words</title>
+    <title>Write numbers in french</title>
     <script type="text/javascript" src="js/script.js"></script>
     <link rel="stylesheet" href="css/default.css">
 
@@ -29,11 +29,13 @@
 <div class="container">
     
     <label>Convert numbers into french words</label> 
-    <hr>
+    <br>
+  
+    <input type="text" id="number1"  maxlength="12" placeholder="Type your number here" onkeypress="validate(event);">
 
-    <label>Number to be converted:</label><br>
-    
-    <input type="text" id="number1" value="19761208" maxlength="12" onkeypress="validate(event);">
+
+   
+
     <br>
     <br>
     
@@ -75,12 +77,13 @@
     
     <div id="footer">
         <img id="footer_img" src="images/me.png">
-        <p id="footer_p">© 2014, Abdesselam FILALI.<br>
+        <p id="footer_p">© Abdesselam FILALI.<br>
             Published on: June 5th, 2014. <br>
            
 			<a href="https://github.com/Abdou-fi"><img id="mail" src="images/github-logO.png"></a> <img id="appLogoIcon" src="images/pict1.png">
         </p>
     </div>
+    
 </div>
 </body>
 </html>
