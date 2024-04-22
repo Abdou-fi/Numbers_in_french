@@ -30,7 +30,7 @@ body, #header, #result, #number1{
 #result, #number1{
     color: #a1ad69;
 }
-label, #number1, #result, hr, p, .def, .buttons{
+label, #number1, #result, hr, .def, .buttons, #footer{
     width : 70%;
 }
 
@@ -79,10 +79,9 @@ p{
 }
 #footer{
     margin: auto;
-    width : 50%;
+
 }
 #footer_p {
     font-size: small;
     text-align: center;
-    width : 90%;
 }
